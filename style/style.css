@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,500i,700');
+
+/* Global */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.global {
+   width: 1360px;
+   margin: 0 auto;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+header {
+    height: 750px;
+    background-color: #e1e1e1;
+}
+
+.wrapperlogo {
+    width: 85px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    float: left;
+}
+
+.logo img:first-child {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.logo span {
+    text-transform: uppercase;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    margin-bottom: 6px;
+}
+
+nav {
+    float: right;
+    margin-top: 27px;
+}
+
+nav a {
+    color: #4d4d4d;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Asap, sans-serif;
+    font-weight: 400;
+} 
+
+nav a:hover {
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    border-bottom: 1px solid  #4d4d4d;
+    color: #4d4d4d;
+    font-family: Asap, sans-serif;
+    font-weight: 400;y
+} 
+
+
+nav li {
+    display: inline-block;
+    margin-right: 22px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.heading {
+    margin-top: 180px;
+    float: left;
+}
+
+.heading h1 {
+    font-family: Asap, sans-serif;
+    font-weight: 600;
+    font-size: 6em;
+    color: #4d4d4d; 
+    margin: 0;
+}
+
+.heading h4 {
+    margin: 0;
+    color: #8d99aa;
+    font-size: 1.4em;
+    font-family: Asap, sans-serif;
+    font-weight: 400;
+} 
+
+.buttons {
+    margin-top: 30px;
+}
+
+.common {
+    text-decoration: none;
+    font-family:  Lato, sans-serif;
+    font-weight: 700;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    color: #4d4d4d; 
+}
+
+.first {
+    padding: 10px 20px;
+    background-color: #ffffff;
+}
+
+.second {
+    padding: 10px 35px;
+    border: 1px solid #000000;
+    margin-left: 20px;
+}
+
+.big-image {
+    display: grid;
+}
+
+/* Start first section "Know more about me" */
+
+.know-more {
+    height: 675px;
+    background-color: #ffffff;
+}
+
+.know_more_1 {
+    margin-top: 180px;
+    float: left;
+}
+
+.know_more_1 hr {
+    width: 70px;
+    margin: 0;
+    height: 3px;
+    background-color: #8d99aa;
+}
+
+.know_more_1 h2 {
+    margin-top: 10px;
+    font-family: Asap, sans-serif;
+    font-weight: 500;
+    color: #8d99aa;
+    text-transform: uppercase;
+    font-size: 3.5em;
+    margin-bottom: -20px;
+}
+
+.know_more_1 p {
+    width: 480px;
+    color: #8d99aa;
+    font-size: 16px;
+   
+}
+
+.button3 {
+    margin-top: 55px;
+}
+
+.button_download_cv {   
+    text-decoration: none;
+    font-family:  Lato, sans-serif;
+    font-weight: 700;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: #4d4d4d; 
+    padding: 15px 40px;
+    border: 1px solid #000000;
+}
+
+.know_more_2 {
+    float: right;
+    display: grid;
+}
+
+.know_more_2 img {
+    margin-top: 110px;
+}
+
+/* Start second section "Services" */
+
+.services {
+    height: 690px;
+    background-color: #f6f6f6;
+    
+}
+
+.services-header {
+    padding-top: 115px;
+    text-align: center;
+}
+
+.services-header hr {
+    width: 70px;
+    height: 3px;
+    background-color: #767676;
+}
+
+.services-header h2 {
+    margin-top: 0;
+    font-family: Asap, sans-serif;
+    font-weight: 700;
+    color: #7a7a7a;
+    text-transform: uppercase;
+    font-size: 3.5em;
+}
+
+.services-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;  
+    text-align: center;
+}
+
+.service-item h5 {
+    margin-top: 10px;
+    font-family: Asap, sans-serif;
+    font-weight: 500;
+    color: #595757;
+    font-size: 1.6em;
+}
+
+/* Start third section "My skills" */
+
+.my_skills {
+    height: 765px;
+    background-color: #ffffff;
+   
+}
+
+.my_skills-header {
+    padding-top: 115px;
+    text-align: center;
+}
+
+.my_skills-header hr {
+    width: 70px;
+    height: 3px;
+    background-color: #767676;
+}
+
+.my_skills-header h2 {
+    margin-top: 0;
+    font-family: Asap, sans-serif;
+    font-weight: 700;
+    color: #7a7a7a;
+    text-transform: uppercase;
+    font-size: 3.3em;
+}
+
+.my_skills-img {
+    margin-top: 70px;
+    text-align: center;
+}
+
+/* Start fourth section "Portfolio" */
+
+.portfolio {
+    height: 970px;
+    background-color: #f6f6f6;
+}
+
+.portfolio-header{
+    padding-top: 120px;
+    text-align: center;
+}
+
+.portfolio-header hr{
+    width: 70px;
+    height: 3px;
+    background-color: #767676;
+}
+
+.portfolio-header h2 {
+    margin-top: 0;
+    font-family: Asap, sans-serif;
+    font-weight: 700;
+    color: #7a7a7a;
+    text-transform: uppercase;
+    font-size: 3.5em;
+    margin-bottom: 30px;
+}
+
+.portfolio-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;  
+    text-align: center;
+}
+
+.button4 {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.button_load-more {   
+    text-decoration: none;
+    font-family:  Lato, sans-serif;
+    font-weight: 700;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: #4d4d4d; 
+    padding: 16px 46px;
+    background-color: #ffffff;
+}
+
+/* Start fifth section "Testimonials" */
+
+.testimonials {
+    height: 710px;
+    background-color: #ffffff;
+}
+
+.testimonials-header {
+    padding-top: 120px;
+    text-align: center;
+}
+
+.testimonials-header hr{
+    width: 70px;
+    height: 3px;
+    background-color: #727f90;
+}
+
+.testimonials-header h2 {
+    margin-top: 0;
+    font-family: Asap, sans-serif;
+    font-weight: 700;
+    color: #727f90;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+
+.testimonials-review {
+    margin-top: 55px;
+    border: 1px solid #727f90;
+    width: 950px;
+    height: 350px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.testimonials-img {
+    width: 290px;
+    text-align: right;
+    margin-top: 80px;
+        
+}
+
+.testimonials-review-text {
+    width: 620px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-family: Asap, sans-serif;
+     color: #474747;
+}
+
+.testimonials-review-text h4 {
+    font-size: 1.8em;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.testimonials-review-text h5 {
+    margin-top: 0;
+    font-weight: 700;
+}
+
+/* Start sixth section "Funfacts" */
+
+.funfact {
+    height: 300px;
+    background-color: #f6f6f6;
+}
+
+.funfact-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    text-align: center;
+    font-family: Asap, sans-serif;
+}
+
+.fanfact-item h4 {
+    color: #435061;
+    font-size: 1.5em;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.fanfact-item h5 {
+    
+    color: #435061;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.3em;
+    margin: 0;
+}
+
+/* Start footer */
+
+footer {
+    height: 785px;
+    background-image: url(../img/footer.png);
+}
+
+.form-heading {
+    padding-top: 140px;
+    text-align: center;
+}
+
+.form-heading hr{
+    width: 70px;
+    height: 3px;
+    background-color: #c1c1c1;
+}
+
+.form-heading h2 {
+    margin-top: 0;
+    font-family: Asap, sans-serif;
+    font-weight: 700;
+    color: #f3f3f3;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-size: 3em;
+    margin-bottom: 65px;
+}
+
+.form-form {    
+    margin: 0 auto;
+    width: 770px;
+}
+
+.form-row input[type="text"] {
+    height: 50px;
+    width: 365px;
+}
+
+.form-textarea textarea {
+    width: 736px;
+    height: 205px;
+}
+
+.button5 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.button5 a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    padding: 20px 35px;
+    color: #4d4d4d;
+    font-family: Asap, sans-serif;
+    font-weight: 700;
+}
+
+.footer-hr {
+    margin-top: 55px;
+}
+
+.footer-rights {
+   text-align: center;
+   color: #ffffff;
+   font-family: Arial, sans-serif;
+   font-size: 0.8em;
+   margin-top: -25px;
+}
+
+.footer-social {
+    margin-top: 30px;
+}
